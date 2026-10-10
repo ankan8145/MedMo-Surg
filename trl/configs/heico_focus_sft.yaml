@@ -1,0 +1,14 @@
+# HEICO-FOCUS SFT hyperparameters (consumed by trl/trl/scripts/sft.py)
+num_train_epochs: 1
+learning_rate: 1.0e-5
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+bf16: true
+gradient_checkpointing: true
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+logging_steps: 10
+save_strategy: steps
+save_steps: 500
+eval_strategy: epoch
+report_to: none

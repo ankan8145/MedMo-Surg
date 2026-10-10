@@ -1,0 +1,11 @@
+model:
+  model_path: checkpoints/Qwen3.5-9B
+  torch_dtype: bfloat16
+  device_map: auto
+  trust_remote_code: true
+
+generation:
+  max_new_tokens: 512
+  temperature: 0.0
+  top_p: 1.0
+  do_sample: false

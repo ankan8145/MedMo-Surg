@@ -1,0 +1,21 @@
+torch
+transformers
+huggingface-hub
+accelerate
+pyyaml
+requests
+tqdm
+regex
+safetensors
+tokenizers
+numpy
+pandas
+scikit-learn
+
+# Optional evaluation helpers:
+# scipy
+# rdkit
+
+# Optional TDC dataset downloader. Install separately if you want
+# DAVIS/KIBA/BindingDB_IC50 via TDC and have a compatible environment:
+# PyTDC

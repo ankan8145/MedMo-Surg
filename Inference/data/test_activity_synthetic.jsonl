@@ -1,0 +1,5 @@
+{"id": "act_001", "task": "target_activity_prediction", "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1", "target_name": "EGFR", "target_sequence": "MRPSGTAGAALLALLAALCPASRALEEKK", "label": "active"}
+{"id": "act_002", "task": "target_activity_prediction", "smiles": "CCO", "target_name": "EGFR", "target_sequence": "MRPSGTAGAALLALLAALCPASRALEEKK", "label": "inactive"}
+{"id": "act_003", "task": "target_activity_prediction", "smiles": "CC(=O)Oc1ccccc1C(=O)O", "target_name": "EGFR", "target_sequence": "MRPSGTAGAALLALLAALCPASRALEEKK", "label": "uncertain"}
+{"id": "act_004", "task": "target_activity_prediction", "smiles": "CN1CCC[C@H]1c1cccnc1", "target_name": "EGFR", "target_sequence": "MRPSGTAGAALLALLAALCPASRALEEKK", "label": "active"}
+{"id": "act_005", "task": "target_activity_prediction", "smiles": "c1ccccc1", "target_name": "EGFR", "target_sequence": "MRPSGTAGAALLALLAALCPASRALEEKK", "label": "inactive"}

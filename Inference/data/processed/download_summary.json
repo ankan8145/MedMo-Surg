@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "dataset": "davis",
+      "status": "failed",
+      "error": "PyTDC failed (PyTDC is not installed. Falling back to direct Dataverse is handled by caller.); direct Dataverse fallback failed (HTTPSConnectionPool(host='dataverse.harvard.edu', port=443): Max retries exceeded with url: /api/access/datafile/5219748 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))"
+    },
+    {
+      "dataset": "kiba",
+      "status": "failed",
+      "error": "PyTDC failed (PyTDC is not installed. Falling back to direct Dataverse is handled by caller.); direct Dataverse fallback failed (HTTPSConnectionPool(host='dataverse.harvard.edu', port=443): Max retries exceeded with url: /api/access/datafile/5255037 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))"
+    },
+    {
+      "dataset": "bindingdb_ic50",
+      "status": "failed",
+      "error": "PyTDC failed (PyTDC is not installed. Falling back to direct Dataverse is handled by caller.); direct Dataverse fallback failed (HTTPSConnectionPool(host='dataverse.harvard.edu', port=443): Max retries exceeded with url: /api/access/datafile/4291560 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))"
+    },
+    {
+      "dataset": "bace",
+      "status": "success",
+      "raw_file": "data/raw/bace.csv",
+      "activity_file": "data/processed/bace_activity_test.jsonl",
+      "activity_rows": 302,
+      "pic50_file": "data/processed/bace_pic50_test.jsonl",
+      "pic50_rows": 302,
+      "notes": "DeepChem MoleculeNet BACE; pIC50 is negative log IC50; Class 1=active, 0=inactive."
+    },
+    {
+      "dataset": "hiv",
+      "status": "success",
+      "raw_file": "data/raw/hiv.csv",
+      "activity_file": "data/processed/hiv_activity_test.jsonl",
+      "activity_rows": 1000,
+      "notes": "DeepChem MoleculeNet HIV; HIV_active 1=active, 0=inactive."
+    }
+  ],
+  "default_outputs": {
+    "test_activity": {
+      "source": "data/processed/bace_activity_test.jsonl",
+      "path": "data/test_activity.jsonl"
+    },
+    "test_pic50": {
+      "source": "data/processed/bace_pic50_test.jsonl",
+      "path": "data/test_pic50.jsonl"
+    }
+  }
+}
